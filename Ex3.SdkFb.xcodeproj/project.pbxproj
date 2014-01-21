@@ -21,6 +21,7 @@
 		00AC2FE5188E706600CE959C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2FC7188E706500CE959C /* UIKit.framework */; };
 		00AC2FED188E706600CE959C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AC2FEB188E706600CE959C /* InfoPlist.strings */; };
 		00AC2FEF188E706600CE959C /* Ex3_SdkFbTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AC2FEE188E706600CE959C /* Ex3_SdkFbTests.m */; };
+		00AC2FF9188E70A000CE959C /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AC2FF8188E70A000CE959C /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		00AC2FEA188E706600CE959C /* Ex3.SdkFbTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex3.SdkFbTests-Info.plist"; sourceTree = "<group>"; };
 		00AC2FEC188E706600CE959C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AC2FEE188E706600CE959C /* Ex3_SdkFbTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex3_SdkFbTests.m; sourceTree = "<group>"; };
+		00AC2FF8188E70A000CE959C /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00AC2FC6188E706500CE959C /* CoreGraphics.framework in Frameworks */,
+				00AC2FF9188E70A000CE959C /* FacebookSDK.framework in Frameworks */,
 				00AC2FC8188E706500CE959C /* UIKit.framework in Frameworks */,
 				00AC2FC4188E706500CE959C /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +104,7 @@
 		00AC2FC2188E706500CE959C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AC2FF8188E70A000CE959C /* FacebookSDK.framework */,
 				00AC2FC3188E706500CE959C /* Foundation.framework */,
 				00AC2FC5188E706500CE959C /* CoreGraphics.framework */,
 				00AC2FC7188E706500CE959C /* UIKit.framework */,
@@ -378,6 +382,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sdt-1/Documents/project/Ex3.SdkFb",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ex3.SdkFb/Ex3.SdkFb-Prefix.pch";
 				INFOPLIST_FILE = "Ex3.SdkFb/Ex3.SdkFb-Info.plist";
@@ -391,6 +399,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sdt-1/Documents/project/Ex3.SdkFb",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ex3.SdkFb/Ex3.SdkFb-Prefix.pch";
 				INFOPLIST_FILE = "Ex3.SdkFb/Ex3.SdkFb-Info.plist";
